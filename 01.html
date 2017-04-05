@@ -20,7 +20,7 @@
     </div>
     <div>
         <div><span>考试科目：</span><input type="text" value="统一建模语言UML" readonly="readonly"> <span>时间：</span><input type="text" value="100分钟" readonly="readonly"> <span>得分：</span><input
-                type="text"></div>
+                type="text" readonly="readonly"></div>
         <div><span>班级：</span><input type="text"><span>学号：</span><input type="text"><span>姓名:</span> <input type="text"></div>
     </div>
     <div>
@@ -38,19 +38,19 @@
             <li>
                 <span>UML与软件工程的关系是：</span>
                 <ul>
-                    <li><input type="radio" name="xz1" />UML就是软件工程</li>
-                    <li><input type="radio" name="xz1" />UML参与到软件工程中软件开发过程的结果阶段</li>
-                    <li> <input type="radio" name="xz1" />UML与软件工程无关</li>
-                    <li><input type="radio" name="xz1" />UML是软件工程的一部分</li>
+                    <li><input type="radio" name="xz1" id="xz1-a"/><label for="xz1-a">UML就是软件工程</label></li>
+                    <li><input type="radio" name="xz1" id="xz1-b"/><label for="xz1-b">UML参与到软件工程中软件开发过程的结果阶段</label></li>
+                    <li> <input type="radio" name="xz1" id="xz1-c" /><label for="xz1-c">UML与软件工程无关</label></li>
+                    <li><input type="radio" name="xz1" id="xz1-d"/><label for="xz1-d">UML是软件工程的一部分</label></li>
                 </ul>
             </li>
             <li>
                 <span>Java语言支持：</span>
                 <ul>
-                    <li><input type="radio" name="xz2" />单继承</li>
-                    <li> <input type="radio" name="xz2" />多继承</li>
-                    <li><input type="radio" name="xz2" />单继承和多继承都支持</li>
-                    <li><input type="radio" name="xz2" />单继承和多继承都不支持</li>
+                    <li><input type="radio" name="xz2" id="xz2-a"/><label for="xz2-a">单继承</label></li>
+                    <li> <input type="radio" name="xz2" id="xz2-b"/><label for="xz2-b">多继承</label></li>
+                    <li><input type="radio" name="xz2" id="xz2-c"/><label for="xz2-c">单继承和多继承都支持</label></li>
+                    <li><input type="radio" name="xz2" id="xz2-d"/><label for="xz2-d">单继承和多继承都不支持</label></li>
                 </ul>
             </li>
         </ol>
@@ -62,20 +62,20 @@
             <li>
                 <ul>
                     <span>用例的粒度分为以下哪三种：</span>
-                    <li><input type="checkbox">概述级</li>
-                    <li><input type="checkbox">需求级</li>
-                    <li><input type="checkbox">用户目标级</li>
-                    <li><input type="checkbox">子功能级</li>
+                    <li><input type="checkbox"  id="dx-1-a"><label for="dx-1-a">概述级</label></li>
+                    <li><input type="checkbox" id="dx-1-b"><label for="dx-1-b">需求级</label></li>
+                    <li><input type="checkbox" id="dx-1-c"><label for="dx-1-c">用户目标级</label></li>
+                    <li><input type="checkbox" id="dx-1-d"><label for="dx-1-d">子功能级</label></li>
                 </ul>
             </li>
             <li>
                 <ul>
                     <span>类图由以下哪三部分组成：</span>
-                    <li><input type="checkbox">名称（Name）</li>
-                    <li><input type="checkbox">属性（Attribute）</li>
-                    <li><input type="checkbox">操作（Operation）</li>
-                    <li><input type="checkbox">方法（Function）</li>
-                </ul>
+                    <li><input type="checkbox"  id="dx-2-a"><label for="dx-2-a">名称（Name）</label></li>
+                    <li><input type="checkbox" id="dx-2-b"><label for="dx-2-b">属性（Attribute）</label></li>
+                    <li><input type="checkbox" id="dx-2-c"><label for="dx-2-c">操作（Operation）</label></li>
+                    <li><input type="checkbox" id="dx-2-d"><label for="dx-2-d">方法（Function）</label></li>
+                </ub>
             </li>
         </ol>
         </p>
