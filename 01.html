@@ -7,7 +7,9 @@
         ul>li{
             list-style-type: upper-latin;
         }
-
+        span{
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -17,16 +19,16 @@
         <h1>统一建模语言理论测试</h1>
     </div>
     <div>
-        <div>考试科目：<input type="text" value="统一建模语言UML" readonly="readonly"> 时间：<input type="text" value="100分钟" readonly="readonly"> 得分：<input
+        <div><span>考试科目：</span><input type="text" value="统一建模语言UML" readonly="readonly"> <span>时间：</span><input type="text" value="100分钟" readonly="readonly"> <span>得分：</span><input
                 type="text"></div>
-        <div>班级：<input type="text">学号：<input type="text">姓名: <input type="text"></div>
+        <div><span>班级：</span><input type="text"><span>学号：</span><input type="text"><span>姓名:</span> <input type="text"></div>
     </div>
     <div>
         <p>
             <h3>一、填空题</h3>
         <ol>
-            <li>UML的中文全称是：<input type="text"></li>
-            <li>对象最突出的特征是：<input type="text"><input type="text"><input type="text"></li>
+            <li><span>UML的中文全称是：</span><input type="text"></li>
+            <li><span>对象最突出的特征是：</span><input type="text">、<input type="text">、<input type="text"></li>
         </ol>
         </p>
             
@@ -34,21 +36,21 @@
             <h3>二、选择题</h3>
         <ol>
             <li>
-                UML与软件工程的关系是：
+                <span>UML与软件工程的关系是：</span>
                 <ul>
-                    <li><input type="radio" />UML就是软件工程</li>
-                    <li><input type="radio" />UML参与到软件工程中软件开发过程的结果阶段</li>
-                    <li> <input type="radio" />UML与软件工程无关</li>
-                    <li><input type="radio" />UML是软件工程的一部分</li>
+                    <li><input type="radio" name="xz1" />UML就是软件工程</li>
+                    <li><input type="radio" name="xz1" />UML参与到软件工程中软件开发过程的结果阶段</li>
+                    <li> <input type="radio" name="xz1" />UML与软件工程无关</li>
+                    <li><input type="radio" name="xz1" />UML是软件工程的一部分</li>
                 </ul>
             </li>
             <li>
-                Java语言支持：
+                <span>Java语言支持：</span>
                 <ul>
-                    <li><input type="radio" />单继承</li>
-                    <li> <input type="radio" />多继承</li>
-                    <li><input type="radio" />单继承和多继承都支持</li>
-                    <li><input type="radio" />单继承和多继承都不支持</li>
+                    <li><input type="radio" name="xz2" />单继承</li>
+                    <li> <input type="radio" name="xz2" />多继承</li>
+                    <li><input type="radio" name="xz2" />单继承和多继承都支持</li>
+                    <li><input type="radio" name="xz2" />单继承和多继承都不支持</li>
                 </ul>
             </li>
         </ol>
@@ -79,23 +81,23 @@
         </p>
 
         <p>
-            <h3>判断题</h3>
+            <h3>四、判断题</h3>
         <ol>
             <li>
-                用例图知识用于和客户交流和沟通的，用于需求确定
-                <input type="radio" name="pd1">
-                <input type="radio" name="pd1">
+                <span>用例图知识用于和客户交流和沟通的，用于需求确定</span>
+                <input type="radio" name="pd1" id="pd1-true"><label for="pd1-true">✅</label>
+                <input type="radio" name="pd1" id="pd1-false"><label for="pd1-false">❎</label>
             </li>
             <li>
-                在状态图中，终止装填在一个状态图中允许有任意多个
-                <input type="radio" name="pd2">
-                <input type="radio" name="pd2">
+                <span>在状态图中，终止装填在一个状态图中允许有任意多个</span>
+                <input type="radio" name="pd2" id="pd2-true"><label for="pd2-true">✅</label>
+                <input type="radio" name="pd2" id="pd2-false"><label for="pd2-false">❎</label>
             </li>
         </ol>
         </p>
 
         <p>
-            <h3>简答题（每题4分，共20分）</h3>
+            <h3>五、简答题（每题4分，共20分）</h3>
         <ol>
             <li>
                 <ul>
