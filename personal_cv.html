@@ -39,6 +39,26 @@
         li{
             list-style: none;
         }
+
+        .timeLine:before{
+            content: ' ';
+            width:5px;
+            height: 100%;
+            display: block;
+            background: #ec7263;
+            position: absolute;
+            top:0;
+            left:55px;
+        }
+        /*.timeLine:after{*/
+            /*content: ' ';*/
+            /*width:5px;*/
+            /*height: 100%;*/
+            /*display: block;*/
+            /*background: #ec7263;*/
+            /*position: absolute;*/
+        /*}*/
+
     </style>
 </head>
 <body style="background-color: azure">
@@ -71,8 +91,8 @@
                 <div class="category"><span class="glyphicon glyphicon-tag orange"><h4 style="display: inline"> EDUCATION</h4></span>
                 </div>
                 <div>
-                    <ul>
-                        <li>
+                    <ul style="position: relative">
+                        <li class="timeLine">
                             <div class="row">
                                 <div class="col-md-4">
                                     <strong>1990</strong>
@@ -84,7 +104,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeLine">
                             <div class="row">
                                 <div class="col-md-4">
                                     <strong>2005</strong>
@@ -97,7 +117,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeLine">
                             <div class="row">
                                 <div class="col-md-4">
                                     <strong>2009</strong>
@@ -110,7 +130,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeLine">
                             <div class="row">
                                 <div class="col-md-4">
                                     <strong>2012</strong>
@@ -128,11 +148,11 @@
                 <div class="category"><span class="glyphicon glyphicon-tag orange"><h4 style="display: inline"> EXPERIENCES</h4></span>
                 </div>
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <div><strong>Google</strong></div>
                         <div><span class="showOp">2013 - 2014</span></div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-8">
                         <h4>Front-end developer / php programmer</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis
                             veritatis velit sunt similique qui magni totam harum tempore eius laboriosam accusantium
@@ -141,11 +161,11 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <div><strong>Twitter</strong></div>
                         <div><span class="showOp">2012</span></div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-8">
                         <h4>Web Developer</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, nihil sit nemo voluptatem
                             praesentium. Quia, qui facere consectetur libero asperiores fugiat consequuntur deserunt
